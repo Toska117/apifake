@@ -1,0 +1,52 @@
+.pageContainer {
+  padding: 1rem;
+  padding-bottom: 70px;
+}
+
+.userCard {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem 1.5rem; /* Más padding horizontal */
+  margin-bottom: 1rem;
+  background-color: #fff; /* Fondo blanco */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.userName {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.userContact {
+  font-size: 0.95em;
+  color: #555;
+  margin-bottom: 0.3rem;
+}
+
+.userAddress {
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 0.8rem;
+  border-left: 3px solid #eee;
+  padding-left: 0.8rem;
+  line-height: 1.4;
+}
+
+.userAddress strong {
+  color: #555;
+}
+
+/* Mensajes */
+.loadingMessage,
+.errorMessage,
+.emptyMessage {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
+
+.errorMessage {
+  color: red;
+  font-weight: bold;
+} 

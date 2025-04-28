@@ -1,0 +1,19 @@
+.starRatingContainer {
+  display: inline-block; /* Para que el texto quede al lado */
+  margin-bottom: 0.5rem;
+}
+
+.starFilled,
+.starHalf,
+.starEmpty {
+  color: #fadb14; /* Amarillo */
+  font-size: 1.2em;
+  margin-right: 2px;
+  cursor: default; /* Indicar que no es interactivo */
+}
+
+.starEmpty {
+  color: #d9d9d9; /* Gris claro para estrellas vacías */
+}
+
+/* Podríamos añadir estilos para .starHalf si tuviéramos un icono específico */ 

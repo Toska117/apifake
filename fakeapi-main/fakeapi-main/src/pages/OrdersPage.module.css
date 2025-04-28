@@ -1,0 +1,56 @@
+.pageContainer {
+  padding: 1rem;
+  padding-bottom: 70px;
+}
+
+.orderCard {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem; /* Más espacio entre órdenes */
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.07);
+}
+
+.orderHeader {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+  color: #333;
+}
+
+.orderDetails p {
+  margin: 0.4rem 0;
+  font-size: 0.95em;
+  color: #555;
+}
+
+.orderDetails strong {
+  color: #333;
+}
+
+.productList {
+  margin-top: 1rem;
+  padding-left: 1.5rem; /* Indentación para productos */
+  list-style: disc;
+}
+
+.productListItem {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 0.3rem;
+}
+
+/* Mensajes */
+.loadingMessage,
+.errorMessage,
+.emptyMessage {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
+
+.errorMessage {
+  color: red;
+  font-weight: bold;
+} 

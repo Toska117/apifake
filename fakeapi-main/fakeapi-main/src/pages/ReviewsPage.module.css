@@ -1,0 +1,51 @@
+.pageContainer {
+  padding: 1rem;
+  padding-bottom: 70px;
+}
+
+.reviewCard {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.reviewTitle {
+  font-size: 1.15em;
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
+
+.starRating span {
+  color: #fadb14; /* Amarillo */
+  font-size: 1.2em;
+  margin-right: 2px; /* Espacio entre estrellas */
+}
+
+.reviewContent {
+  margin: 0.8rem 0;
+  color: #444;
+  line-height: 1.5;
+}
+
+.reviewMeta {
+  font-size: 0.85em;
+  color: #888;
+  margin-top: 0.5rem;
+}
+
+/* Mensajes */
+.loadingMessage,
+.errorMessage,
+.emptyMessage {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
+
+.errorMessage {
+  color: red;
+  font-weight: bold;
+} 
